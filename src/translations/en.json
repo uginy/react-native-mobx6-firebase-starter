@@ -1,0 +1,12 @@
+{
+  "translation": {
+    "initial":       {
+      "loading":        "Loading...",
+      "complete":       "Complete",
+      "loadingUser":    "Loading user",
+      "userLoaded":     "User loaded",
+      "verifyingToken": "Verifying token",
+      "userNotFound":   "User not found"
+    }
+  }
+}

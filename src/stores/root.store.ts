@@ -4,11 +4,11 @@ export class RootStore {
     guiStore: GuiStore;
 
     constructor () {
-        this.guiStore = new GuiStore ();
+        this.guiStore = new GuiStore (this);
     }
 
     resetStores () {
-        this.guiStore = new GuiStore ();
+        this.guiStore = new GuiStore (this);
     }
 
 }
